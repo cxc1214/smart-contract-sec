@@ -1,0 +1,17 @@
+# Foundry build artifacts
+cache/
+out/
+
+# broadcast logs for local/test chains (keep real deployment broadcasts if any)
+broadcast/*/31337/
+broadcast/*/5/
+
+# env / secrets
+.env
+
+# editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
